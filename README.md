@@ -5,9 +5,20 @@ This repository contains solutions to coding interview exercises from different 
 https://www.algoexpert.io/questions</br>
 Progress: 0 of 125
 
-### Easy problems
+### Arrays
 * `TODO` TwoNumberSum
 
-### Medium problems
-### Hard problems
-### Very hard problems
+### Binary Search Trees
+### Binary Trees
+### Dynamic Programming
+### Famous Algorithms
+### Graphs
+### Greedy Algorithms
+### Heaps
+### Linked Lists
+### Recursion
+### Searching
+### Sorting
+### Stacks
+### Strings
+### Tries
