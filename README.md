@@ -6,7 +6,7 @@ https://www.algoexpert.io/questions</br>
 Progress: 0 of 125
 
 ### Arrays
-* `TODO` TwoNumberSum
+* `SOLVED` [TwoNumberSum](../blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
 
 ### Binary Search Trees
 ### Binary Trees
