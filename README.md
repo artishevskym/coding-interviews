@@ -3,11 +3,11 @@ This repository contains solutions to coding interview exercises from different 
 
 ## Resource 1: AlgoExpert
 https://www.algoexpert.io/questions</br>
-Progress: 1 of 125
+Progress: 2 of 125
 
 ### Arrays
-* `SOLVED` [TwoNumberSum](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
-
+* `SOLVED` [Two Number Sum](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
+* `SOLVED` [Validate Subsequence](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/ValidateSubsequence.kt)
 ### Binary Search Trees
 ### Binary Trees
 ### Dynamic Programming
