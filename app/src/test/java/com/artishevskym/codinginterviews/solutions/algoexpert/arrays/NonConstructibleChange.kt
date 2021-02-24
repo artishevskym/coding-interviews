@@ -1,6 +1,6 @@
 package com.artishevskym.codinginterviews.solutions.algoexpert.arrays
 
-import org.amshove.kluent.internal.assertEquals
+import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 
 /**
@@ -12,7 +12,7 @@ class NonConstructibleChange {
 
     @Test
     fun testSortingSolution() {
-        assertEquals(EXPECTED_RESULT, nonConstructibleChange(COINS))
+        nonConstructibleChange(COINS) shouldBeEqualTo EXPECTED_RESULT
     }
 
     // time: O(nlogn) | space: O(1)

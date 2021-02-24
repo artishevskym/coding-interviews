@@ -1,6 +1,6 @@
 package com.artishevskym.codinginterviews.solutions.algoexpert.arrays
 
-import org.amshove.kluent.internal.assertEquals
+import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 
 /**
@@ -15,7 +15,7 @@ class TournamentWinner {
 
     @Test
     fun testScoresTable() {
-        assertEquals(EXPECTED_WINNER, tournamentWinner(COMPETITIONS, RESULTS))
+        tournamentWinner(COMPETITIONS, RESULTS) shouldBeEqualTo EXPECTED_WINNER
     }
 
     // time: O(n) | space: O(k)
