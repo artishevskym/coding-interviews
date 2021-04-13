@@ -4,32 +4,34 @@ import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 
 /**
- * Implement Insertion Sort.
- * @see <a href="https://www.algoexpert.io/questions/Insertion%20Sort">Insertion Sort</a>
+ * Implement Selection Sort.
+ * @see <a href="https://www.algoexpert.io/questions/Selection%20Sort">Selection Sort</a>
  */
-class InsertionSort {
+class SelectionSort {
 
     @Test
     fun testSolution() {
-        insertionSort(INPUT_ARRAY) shouldBeEqualTo SORTED_ARRAY
+        selectionSort(INPUT_ARRAY) shouldBeEqualTo SORTED_ARRAY
     }
 
     // Best - time: O(n) | space: O(1)
     // Avg - time: O(n^2) | space: O(1)
     // Worst - time: O(n^2) | space: O(1)
-    private fun insertionSort(array: MutableList<Int>): List<Int> {
+    private fun selectionSort(array: MutableList<Int>): List<Int> {
         if (array.size <= 1) return array
 
-        // divide array into two parts, left should be sorted at all times
-        for (i in 1 until array.size) {
-            // take number at i position
-            var j = i
+        var currIdx = 0
 
-            // insert in correct place in left sorted sub array
-            while (j > 0 && array[j] < array[j-1]) {
-                swap(j, j-1, array)
-                j--
+        while (currIdx < array.size) {
+            var minNumIdx = currIdx
+
+            for (i in minNumIdx+1 until array.size) {
+                if (array[minNumIdx] > array[i]) minNumIdx = i
             }
+
+            swap(currIdx, minNumIdx, array)
+
+            currIdx++
         }
 
         return array
