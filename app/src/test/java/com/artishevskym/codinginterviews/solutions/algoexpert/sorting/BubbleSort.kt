@@ -14,6 +14,9 @@ class BubbleSort {
         bubbleSort(INPUT_ARRAY) shouldBeEqualTo SORTED_ARRAY
     }
 
+    // Best - time: O(n) | space: O(1)
+    // Avg - time: O(n^2) | space: O(1)
+    // Worst - time: O(n^2) | space: O(1)
     private fun bubbleSort(array: MutableList<Int>): List<Int> {
         // nothing to sort
         if (array.size <= 1) return array
