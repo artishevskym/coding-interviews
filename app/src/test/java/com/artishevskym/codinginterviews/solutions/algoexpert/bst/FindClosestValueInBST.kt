@@ -66,6 +66,8 @@ class FindClosestValueInBST {
         findClosestValueInBstRecursive(root, TARGET) shouldBeEqualTo EXPECTED_RESULT
     }
 
+    // Average: O(log(n)) time | O(log(n)) space
+    // Worst: O(n) time | O(n) space
     private fun findClosestValueInBstRecursive(tree: BST, target: Int): Int {
         return helperRecursive(tree, target, tree.value)
     }
@@ -89,7 +91,35 @@ class FindClosestValueInBST {
 
     @Test
     fun testIterativeTraversal() {
+        findClosestValueInBstIterative(root, TARGET) shouldBeEqualTo EXPECTED_RESULT
+    }
 
+    // Average: O(log(n)) time | O(1) space
+    // Worst: O(n) time | O(1) space
+    private fun findClosestValueInBstIterative(tree: BST, target: Int): Int {
+        return helperIterative(tree, target, tree.value)
+    }
+
+    private fun helperIterative(tree: BST?, target: Int, closestValue: Int): Int {
+        var currentClosestValue = closestValue
+        var currentNode = tree
+
+        // iterative traversal
+        while (currentNode != null) {
+            if (abs(target - currentNode.value) < abs(target - currentClosestValue)) {
+                currentClosestValue = currentNode.value
+            }
+
+            if (target < currentNode.value) {
+                currentNode = currentNode.left
+            } else if (target > currentNode.value) {
+                currentNode = currentNode.right
+            } else {
+                break
+            }
+        }
+
+        return currentClosestValue
     }
 
     private companion object {
