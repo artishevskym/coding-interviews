@@ -3,7 +3,7 @@ This repository contains solutions to coding interview exercises from different 
 
 ## Resource 1: AlgoExpert
 https://www.algoexpert.io/questions</br>
-Progress: 12 of 150
+Progress: 13 of 150
 
 ### Arrays
 * `SOLVED` [Two Number Sum](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
@@ -19,6 +19,9 @@ Progress: 12 of 150
 
 ### Binary Search Trees
 ### Binary Trees
+* `SOLVED` [Find Closest Value In BST](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/bst/FindClosestValueInBST.kt)
+
+
 ### Dynamic Programming
 ### Famous Algorithms
 ### Graphs
