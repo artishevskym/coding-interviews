@@ -23,7 +23,7 @@ class TournamentWinner {
     private fun tournamentWinner(competitions: List<List<String>>, results: List<Int>): String {
 
         var bestTeam = ""
-        var scores = mutableMapOf(bestTeam to 0)
+        val scores = mutableMapOf(bestTeam to 0)
 
         for (i in competitions.indices) {
             val (homeTeam, awayTeam) = competitions[i]
