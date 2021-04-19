@@ -18,6 +18,7 @@ Progress: 16 of 150
 * `SOLVED` [Array Of Products](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/ArrayOfProducts.kt)
 * `SOLVED` [Spiral Traverse](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/SpiralTraverse.kt)
 * `SOLVED` [Longest Peak](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/LongestPeak.kt)
+* `SOLVED` [First Duplicate Value](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/FirstDuplicateValue.kt)
 
 ### Binary Search Trees
 ### Binary Trees
