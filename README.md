@@ -3,7 +3,7 @@ This repository contains solutions to coding interview exercises from different 
 
 ## Resource 1: AlgoExpert
 https://www.algoexpert.io/questions</br>
-Progress: 17 of 155
+Progress: 18 of 155
 
 ### Arrays
 * `SOLVED` [Two Number Sum](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
@@ -19,6 +19,8 @@ Progress: 17 of 155
 * `SOLVED` [Spiral Traverse](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/SpiralTraverse.kt)
 * `SOLVED` [Longest Peak](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/LongestPeak.kt)
 * `SOLVED` [First Duplicate Value](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/FirstDuplicateValue.kt)
+* `SOLVED` [Merge Overlapping Intervals](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/MergeOverlappingIntervals.kt)
+
 
 ### Binary Search Trees
 ### Binary Trees
