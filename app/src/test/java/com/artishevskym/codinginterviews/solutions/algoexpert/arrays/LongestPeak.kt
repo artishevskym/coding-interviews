@@ -7,6 +7,7 @@ import kotlin.math.max
 /**
  * Write a function returning the length of the longest peak in the array. A peak is defined as
  * adjacent integers in the array are strictly increasing and after tip strictly decreasing.
+ * @see <a href="https://www.algoexpert.io/questions/Longest%20Peak">Longest Peak</a>
  */
 class LongestPeak {
 
