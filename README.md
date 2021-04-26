@@ -47,4 +47,5 @@ Progress: 24 of 155
 
 ### Stacks
 ### Strings
+* `SOLVED` [Palindrome Check](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/strings/PalindromeCheck.kt)
 ### Tries
