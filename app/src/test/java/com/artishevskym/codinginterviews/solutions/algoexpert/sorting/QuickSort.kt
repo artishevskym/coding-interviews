@@ -14,7 +14,9 @@ class QuickSort {
         quickSort(INPUT) shouldBeEqualTo OUTPUT
     }
 
-    // O(nlog(n)) time | O(log(n)) space
+    // Best: O(nlog(n)) time | O(log(n)) space
+    // Avg: O(nlog(n)) time | O(log(n)) space
+    // Worst: O(n^2) time | O(log(n)) space
     private fun quickSort(array: MutableList<Int>): List<Int> {
         quickSortHelper(array, 0, array.size - 1)
         return array
