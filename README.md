@@ -3,7 +3,7 @@ This repository contains solutions to coding interview exercises from different 
 
 ## Resource 1: AlgoExpert
 https://www.algoexpert.io/questions</br>
-Progress: 26 of 155
+Progress: 27 of 155
 
 ### Arrays
 * `SOLVED` [Two Number Sum](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
@@ -49,4 +49,5 @@ Progress: 26 of 155
 ### Strings
 * `SOLVED` [Palindrome Check](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/strings/PalindromeCheck.kt)
 * `SOLVED` [Caesar Cipher Encryptor](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/strings/CaesarCipherEncryptor.kt)
+* `SOLVED` [Run Length Encoding](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/strings/RunLengthEncoding.kt)
 ### Tries
