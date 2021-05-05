@@ -1,6 +1,5 @@
 package com.artishevskym.codinginterviews.solutions.algoexpert.greedy
 
-import org.amshove.kluent.shouldBe
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 
