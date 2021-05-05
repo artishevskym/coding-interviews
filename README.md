@@ -3,7 +3,7 @@ This repository contains solutions to coding interview exercises from different 
 
 ## Resource 1: AlgoExpert
 https://www.algoexpert.io/questions</br>
-Progress: 30 of 155
+Progress: 31 of 155
 
 ### Arrays
 * `SOLVED` [Two Number Sum](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
@@ -34,6 +34,8 @@ Progress: 30 of 155
 ### Famous Algorithms
 ### Graphs
 ### Greedy Algorithms
+* `SOLVED` [Minimum Waiting Time](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/greedy/MinimumWaitingTime.kt)
+
 ### Heaps
 ### Linked Lists
 ### Recursion
