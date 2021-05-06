@@ -30,7 +30,6 @@ Progress: 37 of 155
 * `SOLVED` [BST Traversal](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/bst/BSTTraversal.kt)
 
 ### Binary Trees
-* `SOLVED` [Binary Search](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/searching/BinarySearch.kt)
 
 ### Dynamic Programming
 ### Famous Algorithms
@@ -46,6 +45,8 @@ Progress: 37 of 155
 ### Linked Lists
 ### Recursion
 ### Searching
+* `SOLVED` [Binary Search](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/searching/BinarySearch.kt)
+
 ### Sorting
 * `SOLVED` [Bubble Sort](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/sorting/BubbleSort.kt)
 * `SOLVED` [Insertion Sort](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/sorting/InsertionSort.kt)
