@@ -46,6 +46,7 @@ Progress: 37 of 155
 ### Recursion
 ### Searching
 * `SOLVED` [Binary Search](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/searching/BinarySearch.kt)
+* `SOLVED` [Find Three Largest Numbers](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/searching/FindThreeLargestNumbers.kt)
 
 ### Sorting
 * `SOLVED` [Bubble Sort](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/sorting/BubbleSort.kt)
