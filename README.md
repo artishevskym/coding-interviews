@@ -3,7 +3,7 @@ This repository contains solutions to coding interview exercises from different 
 
 ## Resource 1: AlgoExpert
 https://www.algoexpert.io/questions</br>
-Progress: 33 of 155
+Progress: 34 of 155
 
 ### Arrays
 * `SOLVED` [Two Number Sum](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
@@ -37,6 +37,7 @@ Progress: 33 of 155
 * `SOLVED` [Minimum Waiting Time](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/greedy/MinimumWaitingTime.kt)
 * `SOLVED` [Class Photos](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/greedy/ClassPhotos.kt)
 * `SOLVED` [Tandem Bicycle](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/greedy/TandemBicycle.kt)
+* `SOLVED` [Task Assignment](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/greedy/TaskAssignment.kt)
 
 ### Heaps
 ### Linked Lists
