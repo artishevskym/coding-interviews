@@ -32,6 +32,7 @@ Progress: 40 of 155
 ### Binary Trees
 * `SOLVED` [Branch Sums](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/binarytrees/BranchSums.kt)
 * `SOLVED` [Node Depths](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/binarytrees/NodeDepths.kt)
+* `SOLVED` [Binary Tree Diameter](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/binarytrees/BinaryTreeDiameter.kt)
 
 ### Dynamic Programming
 ### Famous Algorithms
