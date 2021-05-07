@@ -4,14 +4,15 @@ import com.google.gson.Gson
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Before
 import org.junit.Test
+import java.util.*
 
 /**
- * Write a function converting Binary Tree into a list of its branch sums ordered from
- * leftmost branch sum to rightmost branch sum.
+ * Write a function converting Binary Tree into the sum of its nodes' depths.
  *
- * @see <a href="https://www.algoexpert.io/questions/Branch%20Sums">Branch Sums</a>
+ * @see <a href="https://www.algoexpert.io/questions/Node%20Depths">Node Depths</a>
  */
-class BranchSums {
+class NodeDepths {
+
     data class BstJson(
         val root: String,
         val nodes: List<BST.Companion.NodeJson>
@@ -22,7 +23,7 @@ class BranchSums {
         var left: BST? = null
         var right: BST? = null
 
-        constructor(value: Int, left: BST?, right: BST?): this(value) {
+        constructor(value: Int, left: BST?, right: BST?) : this(value) {
             this.left = left
             this.right = right
         }
@@ -62,40 +63,57 @@ class BranchSums {
     }
 
     @Test
-    fun testSolution() {
-        branchSums(root) shouldBeEqualTo OUTPUT
+    fun testRecursive() {
+        nodeDepthsRecursive(root, 0) shouldBeEqualTo OUTPUT
     }
 
-    // O(n) time | O(n) space - where n is the number of nodes in the Binary Tree
-    private fun branchSums(root: BST): List<Int> {
-        val sums = mutableListOf<Int>()
+    // Average case: when the tree is balanced
+    // O(n) time | O(h) space - where n is the number of nodes in
+    // the Binary Tree and h is the height of the Binary Tree
+    private fun nodeDepthsRecursive(root: BST?, depth: Int = 0): Int {
+        if (root == null) return 0
 
-        calculateBranchSums(root, 0, sums)
-
-        return sums
+        return depth +
+                nodeDepthsRecursive(root.left, depth + 1) +
+                nodeDepthsRecursive(root.right, depth + 1)
     }
 
-    private fun calculateBranchSums(node: BST?, runningSum: Int, sums: MutableList<Int>) {
-        if (node == null) return
+    @Test
+    fun testIterative() {
+        nodeDepthsUsingStack(root) shouldBeEqualTo OUTPUT
+    }
 
-        val newRunningSum = runningSum + node.value
-        if (node.left == null && node.right == null) {
-            // leaf, add to sums and finish current branch traversing
-            sums.add(newRunningSum)
-            return
+    open class Level(root: BST?, depth: Int) {
+        val root = root
+        val depth = depth
+    }
+
+    private fun nodeDepthsUsingStack(root: BST): Int {
+        var sumOfDepths = 0
+        val stack = Stack<Level>()
+
+        stack.add(Level(root, 0))
+
+        while (stack.size > 0) {
+            val top = stack.pop()
+            val node = top.root
+            val depth = top.depth
+
+            // if node is leaf, go to next node in the stack
+            if (node == null) continue
+
+            sumOfDepths += depth
+
+            // add children to the stack
+            stack.add(Level(node.left, depth + 1))
+            stack.add(Level(node.right, depth + 1))
         }
 
-        calculateBranchSums(node.left, newRunningSum, sums)
-        calculateBranchSums(node.right, newRunningSum, sums)
+        return sumOfDepths
     }
 
     private companion object {
-        private val OUTPUT = listOf(15,16,18,10,11)
-        // 15 = 1+2+4+8
-        // 16 = 1+2+4+9
-        // 18 = 1+2+5+10
-        // 10 = 1+3+6
-        // 11 = 1+3+7
+        private const val OUTPUT = 16
         private const val BST_IN_JSON =
             """
 {
@@ -105,12 +123,11 @@ class BranchSums {
         {"id": "2", "left": "4", "right": "5", "value": 2},
         {"id": "3", "left": "6", "right": "7", "value": 3},
         {"id": "4", "left": "8", "right": "9", "value": 4},
-        {"id": "5", "left": "10", "right": null, "value": 5},
+        {"id": "5", "left": null, "right": null, "value": 5},
         {"id": "6", "left": null, "right": null, "value": 6},
         {"id": "7", "left": null, "right": null, "value": 7},
         {"id": "8", "left": null, "right": null, "value": 8},
-        {"id": "9", "left": null, "right": null, "value": 9},
-        {"id": "10", "left": null, "right": null, "value": 10}
+        {"id": "9", "left": null, "right": null, "value": 9}
     ]
 }
             """
