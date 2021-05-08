@@ -3,7 +3,7 @@ This repository contains solutions to coding interview exercises from different 
 
 ## Resource 1: AlgoExpert
 https://www.algoexpert.io/questions</br>
-Progress: 44 of 155
+Progress: 45 of 155
 
 ### Arrays
 * `SOLVED` [Two Number Sum](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
@@ -51,6 +51,7 @@ Progress: 44 of 155
 
 ### Recursion
 * `SOLVED` [Nth Fibonacci](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/recursion/NthFibonacci.kt)
+* `SOLVED` [Product Sum](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/recursion/ProductSum.kt)
 
 ### Searching
 * `SOLVED` [Binary Search](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/searching/BinarySearch.kt)
