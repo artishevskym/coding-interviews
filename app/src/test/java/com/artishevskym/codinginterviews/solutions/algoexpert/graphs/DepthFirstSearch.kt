@@ -4,7 +4,7 @@ import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 
 /**
- * Write a function that takes in an integer n and returns the n-th Fibonacci number.
+ * Write Node.depthFirstSearch method returning nodes names list in DFS order.
  *
  * @see <a href="https://www.algoexpert.io/questions/Depth-first%20Search">Depth First Search</a>
  */
