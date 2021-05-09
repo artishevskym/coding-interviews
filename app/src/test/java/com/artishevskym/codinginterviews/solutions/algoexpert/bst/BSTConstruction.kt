@@ -3,6 +3,11 @@ package com.artishevskym.codinginterviews.solutions.algoexpert.bst
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 
+/**
+ * Implement a BST operations: insert, remove, contains.
+ *
+ * @see <a href="https://www.algoexpert.io/questions/BST%20Construction">BST Construction</a>
+ */
 class BSTConstruction {
 
     @Test
