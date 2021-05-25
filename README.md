@@ -3,7 +3,7 @@ This repository contains solutions to coding interview exercises from different 
 
 ## Resource 1: AlgoExpert
 https://www.algoexpert.io/questions</br>
-Progress: 53 of 155
+Progress: 54 of 155
 
 ### Arrays
 * `SOLVED` [Two Number Sum](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
@@ -74,6 +74,7 @@ Progress: 53 of 155
 ### Stacks
 * `SOLVED` [Min Max Stack Construction](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/stacks/MinMaxStackConstruction.kt)
 * `SOLVED` [Balanced Brackets](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/stacks/BalancedBrackets.kt)
+* `SOLVED` [Next Greater Element](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/stacks/NextGreaterElement.kt)
 
 ### Strings
 * `SOLVED` [Palindrome Check](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/strings/PalindromeCheck.kt)
