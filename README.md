@@ -3,7 +3,7 @@ This repository contains solutions to coding interview exercises from different 
 
 ## Resource 1: AlgoExpert
 https://www.algoexpert.io/questions</br>
-Progress: 56 of 160
+Progress: 57 of 160
 
 ### Arrays
 * `SOLVED` [Two Number Sum](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
@@ -29,6 +29,7 @@ Progress: 56 of 160
 * `SOLVED` [Find Closest Value In BST](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/bst/FindClosestValueInBST.kt)
 * `SOLVED` [BST Traversal](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/bst/BSTTraversal.kt)
 * `SOLVED` [BST Construction](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/bst/BSTConstruction.kt)
+* `SOLVED` [Validate BST](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/bst/ValidateBST.kt)
 
 ### Binary Trees
 * `SOLVED` [Branch Sums](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/binarytrees/BranchSums.kt)
