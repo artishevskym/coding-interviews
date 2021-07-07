@@ -31,13 +31,13 @@ Progress: 59 of 160
 * `SOLVED` [BST Construction](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/bst/BSTConstruction.kt)
 * `SOLVED` [Validate BST](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/bst/ValidateBST.kt)
 * `SOLVED` [Min Height BST](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/bst/MinHeightBST.kt)
+* `SOLVED` [Find Kth Largest Value In BST](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/bst/FindKthLargestValueInBST.kt)
 
 ### Binary Trees
 * `SOLVED` [Branch Sums](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/binarytrees/BranchSums.kt)
 * `SOLVED` [Node Depths](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/binarytrees/NodeDepths.kt)
 * `SOLVED` [Invert Binary Tree](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/binarytrees/InvertBinaryTree.kt)
 * `SOLVED` [Binary Tree Diameter](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/binarytrees/BinaryTreeDiameter.kt)
-* `SOLVED` [Find Kth Largest Value In BST](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/bst/FindKthLargestValueInBST.kt)
 
 ### Dynamic Programming
 ### Famous Algorithms
