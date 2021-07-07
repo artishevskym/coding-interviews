@@ -3,7 +3,7 @@ This repository contains solutions to coding interview exercises from different 
 
 ## Resource 1: AlgoExpert
 https://www.algoexpert.io/questions</br>
-Progress: 59 of 160
+Progress: 60 of 160
 
 ### Arrays
 * `SOLVED` [Two Number Sum](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
@@ -88,4 +88,5 @@ Progress: 59 of 160
 * `SOLVED` [Generate Document](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/strings/GenerateDocument.kt)
 * `SOLVED` [First Non-Repeating Character](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/strings/FirstNonRepeatingCharacter.kt)
 * `SOLVED` [Valid IP Addresses](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/strings/ValidIpAddresses.kt)
+* `SOLVED` [Longest Palindromic Substring](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/strings/LongestPalindromicSubstring.kt)
 ### Tries
