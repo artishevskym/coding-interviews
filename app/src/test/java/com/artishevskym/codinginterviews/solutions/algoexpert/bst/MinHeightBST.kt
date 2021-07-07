@@ -12,7 +12,7 @@ import kotlin.math.max
  *
  * Note: function should minimize the height of the BST.
  *
- * @see <a href="https://www.algoexpert.io/questions/Validate%20BST">Validate BST</a>
+ * @see <a href="https://www.algoexpert.io/questions/Min%20Height%20BST">Min Height BST</a>
  */
 class MinHeightBST {
 
