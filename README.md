@@ -3,7 +3,7 @@ This repository contains solutions to coding interview exercises from different 
 
 ## Resource 1: AlgoExpert
 https://www.algoexpert.io/questions</br>
-Progress: 58 of 160
+Progress: 59 of 160
 
 ### Arrays
 * `SOLVED` [Two Number Sum](../master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/arrays/TwoNumberSum.kt)
@@ -37,6 +37,7 @@ Progress: 58 of 160
 * `SOLVED` [Node Depths](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/binarytrees/NodeDepths.kt)
 * `SOLVED` [Invert Binary Tree](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/binarytrees/InvertBinaryTree.kt)
 * `SOLVED` [Binary Tree Diameter](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/binarytrees/BinaryTreeDiameter.kt)
+* `SOLVED` [Find Kth Largest Value In BST](https://github.com/artishevskym/coding-interviews/blob/master/app/src/test/java/com/artishevskym/codinginterviews/solutions/algoexpert/bst/FindKthLargestValueInBST.kt)
 
 ### Dynamic Programming
 ### Famous Algorithms
